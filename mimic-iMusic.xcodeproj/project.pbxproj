@@ -13,6 +13,14 @@
 		9C6FD5A52A6708600025F52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5A32A6708600025F52D /* Main.storyboard */; };
 		9C6FD5A72A6708610025F52D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5A62A6708610025F52D /* Assets.xcassets */; };
 		9C6FD5AA2A6708610025F52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5A82A6708610025F52D /* LaunchScreen.storyboard */; };
+		9C6FD5C52A670CD90025F52D /* listenNow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5C32A670CD90025F52D /* listenNow.storyboard */; };
+		9C6FD5C82A670D760025F52D /* browse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5C62A670D760025F52D /* browse.storyboard */; };
+		9C6FD5CB2A670DC30025F52D /* radio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5C92A670DC30025F52D /* radio.storyboard */; };
+		9C6FD5CE2A670E0D0025F52D /* database.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5CC2A670E0D0025F52D /* database.storyboard */; };
+		9C6FD5D12A670E4B0025F52D /* search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5CF2A670E4B0025F52D /* search.storyboard */; };
+		9C6FD5D32A684E0B0025F52D /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FD5D22A684E0B0025F52D /* AccountTableViewController.swift */; };
+		9C6FD5D62A684FD60025F52D /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FD5D42A684FD60025F52D /* account.storyboard */; };
+		9C6FD5D82A6A5D8B0025F52D /* CustomFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FD5D72A6A5D8B0025F52D /* CustomFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		9C6FD5A62A6708610025F52D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C6FD5A92A6708610025F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C6FD5AB2A6708610025F52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6FD5C42A670CD90025F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "mimic-iMusic/Base.lproj/listenNow.storyboard"; sourceTree = "<group>"; };
+		9C6FD5C72A670D760025F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "mimic-iMusic/Base.lproj/browse.storyboard"; sourceTree = "<group>"; };
+		9C6FD5CA2A670DC30025F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "mimic-iMusic/Base.lproj/radio.storyboard"; sourceTree = "<group>"; };
+		9C6FD5CD2A670E0D0025F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "mimic-iMusic/Base.lproj/database.storyboard"; sourceTree = "<group>"; };
+		9C6FD5D02A670E4B0025F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "mimic-iMusic/Base.lproj/search.storyboard"; sourceTree = "<group>"; };
+		9C6FD5D22A684E0B0025F52D /* AccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		9C6FD5D52A684FD60025F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "mimic-iMusic/Base.lproj/account.storyboard"; sourceTree = "<group>"; };
+		9C6FD5D72A6A5D8B0025F52D /* CustomFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +72,20 @@
 		9C6FD59C2A6708600025F52D /* mimic-iMusic */ = {
 			isa = PBXGroup;
 			children = (
+				9C6FD5A32A6708600025F52D /* Main.storyboard */,
+				9C6FD5C32A670CD90025F52D /* listenNow.storyboard */,
+				9C6FD5C62A670D760025F52D /* browse.storyboard */,
+				9C6FD5C92A670DC30025F52D /* radio.storyboard */,
+				9C6FD5CC2A670E0D0025F52D /* database.storyboard */,
+				9C6FD5CF2A670E4B0025F52D /* search.storyboard */,
+				9C6FD5D42A684FD60025F52D /* account.storyboard */,
+				9C6FD5A82A6708610025F52D /* LaunchScreen.storyboard */,
+				9C6FD5D72A6A5D8B0025F52D /* CustomFooterView.swift */,
+				9C6FD5A12A6708600025F52D /* ViewController.swift */,
+				9C6FD5D22A684E0B0025F52D /* AccountTableViewController.swift */,
 				9C6FD59D2A6708600025F52D /* AppDelegate.swift */,
 				9C6FD59F2A6708600025F52D /* SceneDelegate.swift */,
-				9C6FD5A12A6708600025F52D /* ViewController.swift */,
-				9C6FD5A32A6708600025F52D /* Main.storyboard */,
 				9C6FD5A62A6708610025F52D /* Assets.xcassets */,
-				9C6FD5A82A6708610025F52D /* LaunchScreen.storyboard */,
 				9C6FD5AB2A6708610025F52D /* Info.plist */,
 			);
 			path = "mimic-iMusic";
@@ -126,7 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C6FD5AA2A6708610025F52D /* LaunchScreen.storyboard in Resources */,
+				9C6FD5C82A670D760025F52D /* browse.storyboard in Resources */,
 				9C6FD5A72A6708610025F52D /* Assets.xcassets in Resources */,
+				9C6FD5C52A670CD90025F52D /* listenNow.storyboard in Resources */,
+				9C6FD5D62A684FD60025F52D /* account.storyboard in Resources */,
+				9C6FD5CE2A670E0D0025F52D /* database.storyboard in Resources */,
+				9C6FD5CB2A670DC30025F52D /* radio.storyboard in Resources */,
+				9C6FD5D12A670E4B0025F52D /* search.storyboard in Resources */,
 				9C6FD5A52A6708600025F52D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +170,9 @@
 			files = (
 				9C6FD5A22A6708600025F52D /* ViewController.swift in Sources */,
 				9C6FD59E2A6708600025F52D /* AppDelegate.swift in Sources */,
+				9C6FD5D32A684E0B0025F52D /* AccountTableViewController.swift in Sources */,
 				9C6FD5A02A6708600025F52D /* SceneDelegate.swift in Sources */,
+				9C6FD5D82A6A5D8B0025F52D /* CustomFooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +193,54 @@
 				9C6FD5A92A6708610025F52D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6FD5C32A670CD90025F52D /* listenNow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6FD5C42A670CD90025F52D /* Base */,
+			);
+			name = listenNow.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6FD5C62A670D760025F52D /* browse.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6FD5C72A670D760025F52D /* Base */,
+			);
+			name = browse.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6FD5C92A670DC30025F52D /* radio.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6FD5CA2A670DC30025F52D /* Base */,
+			);
+			name = radio.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6FD5CC2A670E0D0025F52D /* database.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6FD5CD2A670E0D0025F52D /* Base */,
+			);
+			name = database.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6FD5CF2A670E4B0025F52D /* search.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6FD5D02A670E4B0025F52D /* Base */,
+			);
+			name = search.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6FD5D42A684FD60025F52D /* account.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6FD5D52A684FD60025F52D /* Base */,
+			);
+			name = account.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
